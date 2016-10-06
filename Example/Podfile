@@ -1,7 +1,8 @@
+source 'https://github.com/supaide/cocoapods.git'
 use_frameworks!
 
 target 'BlinkingLabel_Example' do
-  pod 'BlinkingLabel', :path => '../'
+  pod 'BlinkingLabel', '~> 0.1.0'
 
   target 'BlinkingLabel_Tests' do
     inherit! :search_paths
